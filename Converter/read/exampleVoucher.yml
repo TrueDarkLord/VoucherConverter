@@ -1,0 +1,17 @@
+Vouchers:
+  exampleVoucher:
+    voucher:
+      item: STICK
+      name: 'Example Voucher'
+      lore:
+      - ''
+      - 'Just a line of lore.'
+      - ''
+      - '&7&o(Right-Click to redeem Voucher)'
+      player: ''
+      glowing: true
+      options:
+        message: '{prefix}&7You have claimed the Voucher'
+    commands:
+    - "lp user {player} permission set is.dead true"
+    - "kill {player}"
